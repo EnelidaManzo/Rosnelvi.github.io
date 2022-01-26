@@ -1,0 +1,208 @@
+/* 1 rem = 10pix */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+.fondo{
+    font-size: 16px; 
+   /*background-image: linear-gradient(to top, #cfd4da 0%, white 90%);*/
+background: rgb(212,242,255);
+background: linear-gradient(0deg, rgba(212,242,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+h1  {
+    color: #313131;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+}
+.contenedor{/*barra de opciones inicio/contacto*/
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+.bg-nav{/*los link para las opciones del menu*/
+    background-color: #0097a7;
+}
+.menu {/*menu de opciones*/
+    background-color: #0097a7;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{/*menu de opciones cada enlace*/
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.menu a:hover{/*menu de opciones*/
+    background-color:#eed600;
+    color:#181818;
+}
+.foto-principal{/*foto de inicio */
+    background-image:url(../img/eve.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 200px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-fotoprincipal{/*contenido sobre la imagen principal*/
+    position: absolute;
+    background-color: #2b29294f;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-fotoprincipal h2{/*letra del titulo*/
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+.ubicacion{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+.boton{/*botones de toda la pagina*/
+    background-color: #0097a7;
+    color: white;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: .5rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.sombra{/*Sombra del cuadro de datos*/
+    -webkit-box-shadow: 0px 13px 20px -4px rgba(66,66,66,1);
+-moz-box-shadow: 0px 13px 20px -4px rgba(66,66,66,1);
+box-shadow: 0px 13px 20px -4px rgba(66,66,66,1);
+
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+h2{
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    color: #ecd500;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    column-gap: 2rem;
+    text-align: justify;
+}
+.servicio{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 16px; 
+}
+.servicio h3{
+    color: violet;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.servicio img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+}
+.servicio p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.formulario{
+    background-color: #636363;
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.formulario fieldset{
+    border: none;
+}
+.formulario legend{
+    color: hsl(46, 100%, 50%);
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.campo{
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.campo label{
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+    text-align: left;
+}
+.input-text{
+    border-radius: .3rem;
+    border-color: white;
+    width: 100%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.campo textarea{
+ height: 17rem;
+ font-family: 'Montserrat', sans-serif;
+
+}
+.bot-center{
+    text-align: center;
+}
+
+.footer{
+ text-align: center;
+ font-size: 16px; 
+ font-family: 'Montserrat', sans-serif;
+}
+.fotos-pinatas{
+    text-align: center;
+}
+.fotos-pinatas img{
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.contactos{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.dire{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+.iconos-contacto{
+    width: 40px;
+    height: 40px;
+}
